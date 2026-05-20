@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+header h1 {
+
+    color:#3E3062;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header {
+    display: flex; /* Flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinha verticalmente ao centro */
+
+
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px; /* Espaçamento entre a imagem e o texto */
+}
+
+.container {
+    max-width: 960px; /* Largura máxima do container */
+    width: 100%; /* Largura total do container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px; /* Espaçamento interno para os inputs */
+}
+
+form {
+    display: flex; /* permite que os elementos do formulário estejam com tamanhos iguais */
+    max-width: 640px; /* largura máxima do formulário */
+    width: 100%; /* largura total do formulário */
+    justify-content: space-between; /* distribui os elementos do formulário com espaço entre eles */
+    margin-bottom: 56px; /* margem inferior para separar o formulário do resultado */
+
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px; /* Espaçamento interno para os inputs */
+    
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px; /* Espaçamento interno para os cabeçalhos da tabela */
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table {
+    width: 100%; /* largura total da tabela */
+}
+
+table td {
+    text-align: center; /* Centraliza o texto nas células */
+    font-size: 18px;
+    padding: 16px 0; /* Espaçamento inferior e superior nas células da tabela */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3); /* Linha de separação entre as linhas da tabela */
+}
+
+table img {
+    height: 30px;
+}
+
+.resultado {
+    padding: 8px; /* Espaçamento interno para o resultado */
+    font-weight: bold; /* Deixa o texto do resultado em negrito */
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px; /* Bordas arredondadas para o resultado */
+}
+
+.aprovado {
+    background-color: #009432; /* Cor de fundo verde para aprovado */
+}
+
+.reprovado {
+    background-color: red; /* Cor de fundo vermelha para reprovado */
+}
